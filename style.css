@@ -120,8 +120,10 @@ nav > a:hover {
 }
 
 .parte1 > p {
-    padding-bottom: 10px;
+    font-family: 'Poppins', Verdana, sans-serif;
     font-weight: 500;
+    font-size: 19px;
+    padding-bottom: 10px;
 }
 
 .saiba-mais1 {
@@ -189,9 +191,11 @@ nav > a:hover {
 }
 
 .parte2 > p {
-    padding-bottom: 10px;
-    color: white;
+    font-family: 'Poppins', Verdana, sans-serif;
     font-weight: 500;
+    font-size: 19px;
+    padding-bottom: 10px;
+    color: white
 }
 
 .saiba-mais2 {
@@ -254,9 +258,11 @@ nav > a:hover {
 }
 
 .parte3 > p {
+    font-family: 'Poppins', Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 19px;
     padding-bottom: 30px;
     color: #000000;
-    font-weight: 500;
 }
 
 .saiba-mais3 > a {
@@ -317,9 +323,11 @@ nav > a:hover {
 }
 
 .parte4 > p {
+    font-family: 'Poppins', Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 19px;
     padding-bottom: 10px;
     color: #ffffff;
-    font-weight: 500;
 }
 
 .saiba-mais4 {
@@ -345,6 +353,16 @@ nav > a:hover {
     font-size: 17px;
 }
 
+.nubank-logo {
+    background-color: #000000;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.nubank-logo > img {
+    max-width: 100px;
+}
+
 .rodape {
     background-color: #000000;
 }
@@ -356,7 +374,7 @@ nav > a:hover {
     flex-wrap: wrap;
     color: #ffffffd2;
     font-size: 13px;
-    padding: 50px 20px;
+    padding: 0px 20px 50px 20px;
 }
 
 .rodape > .pt-footer {
@@ -390,6 +408,31 @@ li > a:hover {
     color: #ffffff;
 }
 
+.rede-social {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+}
 
+.img-redes-socias img{
+    width: 20px;
+    padding: 0px 5px;
+}
+
+.endereço {
+    background-color: #000000;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.endereço > p {
+    color: #ffffffd2;
+    max-width: 400px;
+    font-family: 'Poppins', Verdana, sans-serif;
+    font-size: 13px;
+}
 
 
