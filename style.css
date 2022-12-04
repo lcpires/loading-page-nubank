@@ -115,6 +115,7 @@ nav > a:hover {
 .parte1 > h1 {
     color: #820AD1;
     line-height: 25px;
+    padding: 15px 0px 10px 0px;
 }
 
 .parte1 > p {
@@ -253,7 +254,6 @@ nav > a:hover {
 
 .parte3 > p {
     padding-bottom: 30px;
-    padding-right: 20px;
     color: #000000;
     font-weight: 500;
 }
