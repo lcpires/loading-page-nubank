@@ -1,0 +1,395 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Poppins', Verdana, sans-serif;
+}
+
+header {
+    height: 60vh;
+    background-image: url(imagem/fundo-header2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+} 
+
+nav {
+    height: 5vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+nav > a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #ffffffbf;
+    padding: 3px 10px;
+    transition-duration: 0.6s;
+}
+
+nav > a:hover {
+    background-color: #ffffff5d;
+    color: #892be2b9;
+    border-radius: 10px;  
+    font-size: 18px;  
+}
+
+.botao-login {
+    background-color: #742cb8;
+    border: 1px solid #742cb8;
+    border-radius: 15px;
+}
+
+.botao-login:hover {
+    background-color: #742cb8;
+    color: #ffffff;
+}
+
+.img-header > img {
+    width: 200px;
+    max-width: 400px;
+    padding-top: 13vh;
+}
+
+.butao-criar-conta {
+    padding-top: 10vh;
+}
+
+.butao-criar-conta > a{
+    background-color: #742cb8;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+
+.butao > a:hover {
+    background-color: #5e2098;
+    font-size: 15px;
+}
+
+.conteudo1 {
+    background-color: #ffffff;
+    padding: 100px 0px;
+}
+
+.p1 {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.p1 > div {
+    flex: 1 1 300px;
+}
+
+.img1 > img {
+    width: 90%;
+    max-width: 400px;    
+}
+
+.parte1 {
+    max-width: 300px;
+    padding: 0px 10px;
+}
+
+.parte1 > h1 {
+    color: #820AD1;
+}
+
+.parte1 > p {
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.saiba-mais1 {
+    padding-top: 10px;
+}
+
+.saiba-mais1 > a {
+    font-size: 15px;
+    font-weight: 500;
+    max-width: 200px;
+    text-decoration: none;
+    justify-content: center;
+    color: #820AD1;
+    padding: 8px;
+    border: 2px solid #820AD1;
+    border-radius: 10px;
+    transition-duration: 0.6s;
+}
+
+.saiba-mais1 > a:hover {
+    background-color: #820AD1;
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.conteudo2 {
+    height: auto;
+    background-image: url(imagem/fundo2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.p2 {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.p2 > div {
+    flex: 1 1 300px;
+}
+
+.imagem-fundo > img {
+    width: 90%;
+    max-width: 400px;
+    
+}
+
+.parte2 {
+    max-width: 300px;
+    padding: 0px 10px;
+}
+
+
+.parte2 > h1 {
+    color: #820AD1;
+}
+
+.parte2 > p {
+    padding-bottom: 10px;
+    color: white;
+    font-weight: 500;
+}
+
+.saiba-mais2 {
+    padding: 20px 0px 35px 0px;
+}
+
+.saiba-mais2 > a {
+    font-size: 15px;
+    max-width: 200px;
+    font-size: 500;
+    text-decoration: none;
+    justify-content: center;
+    color: #ffffff;
+    padding: 8px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    transition-duration: 0.6s;
+}
+
+.saiba-mais2 > a:hover {
+    background-color: #ffffff;
+    color: #820AD1;
+    font-size: 17px;
+}
+
+.conteudo3 {
+    background-color: #ffffff;
+    padding: 100px 0px;
+}
+
+.p3 {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.p3 > div {
+    flex: 1 1 300px;
+}
+
+.img3 > img {
+    width: 40%;
+    max-width: 200px;    
+}
+
+.parte3 {
+    padding: 0px 10px;
+    max-width: 400px;
+}
+
+.parte3 > h1 {
+    padding-top: 15px;
+    color: #820AD1;
+}
+
+.parte3 > p {
+    padding-bottom: 30px;
+    padding-right: 20px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.saiba-mais3 > a {
+    font-size: 15px;
+    font-weight: 500;
+    max-width: 200px;
+    text-decoration: none;
+    justify-content: center;
+    color: #820AD1;
+    padding: 8px;
+    border: 2px solid #820AD1;
+    border-radius: 10px;
+    transition-duration: 0.6s;
+}
+
+.saiba-mais3 > a:hover {
+    background-color: #820AD1;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.conteudo4 {
+    background-color: #461872;
+    padding: 100px 0px;
+}
+
+.p4 {
+    margin: auto;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.p4 > div {
+    flex: 1 1 300px;
+}
+
+.img4 > img {
+    width: 90%;
+    max-width: 400px;    
+}
+
+.parte4 {
+    padding: 0px 10px;
+    max-width: 400px;
+}
+
+.parte4 > h1 {
+    padding-top: 15px;
+    color: #ffffff;
+
+}
+
+.parte4 > p {
+    padding-bottom: 10px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.saiba-mais4 {
+    padding: 20px 0px 35px 0px;
+}
+
+.saiba-mais4 > a {
+    font-size: 15px;
+    font-weight: 500;
+    max-width: 200px;
+    text-decoration: none;
+    justify-content: center;
+    color: #ffffff;
+    padding: 8px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    transition-duration: 0.6s;
+}
+
+.saiba-mais4 > a:hover {
+    background-color: #ffffff;
+    color: #461872;
+    font-size: 17px;
+}
+
+.rodape {
+    background-color: #000000;
+}
+
+.pt-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #ffffffd2;
+    font-size: 13px;
+    padding: 50px 20px;
+    max-width: 1000px;
+}
+
+.rodape > .pt-footer {
+    flex: 1 1 200px;
+}
+
+.caixa {
+    align-items: center;
+}
+
+div > h2 {
+    font-size: 17px;
+    font-weight: normal;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+li {
+    list-style: none;
+    color: #ffffff9f;
+}
+
+li > a {
+    text-decoration: none;
+    color: #ffffff9f;
+    padding-bottom: 10px;
+}
+
+li > a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+
+
+
