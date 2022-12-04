@@ -41,7 +41,7 @@ nav > a{
 nav > a:hover {
     background-color: #ffffff5d;
     color: #892be2b9;
-    border-radius: 10px;  
+    border-radius: 15px;  
     font-size: 18px;  
 }
 
@@ -49,10 +49,11 @@ nav > a:hover {
     background-color: #742cb8;
     border: 1px solid #742cb8;
     border-radius: 15px;
+    color: #ffffff;
 }
 
 .botao-login:hover {
-    background-color: #742cb8;
+    background-color: #5e2098;
     color: #ffffff;
 }
 
@@ -68,7 +69,7 @@ nav > a:hover {
 
 .butao-criar-conta > a{
     background-color: #742cb8;
-    border-radius: 15px;
+    border-radius: 20px;
     text-decoration: none;
     color: #ffffff;
     font-size: 13px;
@@ -77,7 +78,7 @@ nav > a:hover {
     transition-duration: 0.5s;
 }
 
-.butao > a:hover {
+.butao-criar-conta > a:hover {
     background-color: #5e2098;
     font-size: 15px;
 }
@@ -136,7 +137,7 @@ nav > a:hover {
     color: #820AD1;
     padding: 8px;
     border: 2px solid #820AD1;
-    border-radius: 10px;
+    border-radius: 20px;
     transition-duration: 0.6s;
 }
 
@@ -206,7 +207,7 @@ nav > a:hover {
     color: #ffffff;
     padding: 8px;
     border: 2px solid rgb(255, 255, 255);
-    border-radius: 10px;
+    border-radius: 20px;
     transition-duration: 0.6s;
 }
 
@@ -267,7 +268,7 @@ nav > a:hover {
     color: #820AD1;
     padding: 8px;
     border: 2px solid #820AD1;
-    border-radius: 10px;
+    border-radius: 20px;
     transition-duration: 0.6s;
 }
 
@@ -334,7 +335,7 @@ nav > a:hover {
     color: #ffffff;
     padding: 8px;
     border: 2px solid #ffffff;
-    border-radius: 10px;
+    border-radius: 20px;
     transition-duration: 0.6s;
 }
 
@@ -351,7 +352,6 @@ nav > a:hover {
 .pt-footer {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
     color: #ffffffd2;
