@@ -46,6 +46,9 @@ nav > a:hover {
 }
 
 .botao-login {
+    font-family: 'Poppins', Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
     background-color: #742cb8;
     border: 1px solid #742cb8;
     border-radius: 15px;
@@ -68,13 +71,15 @@ nav > a:hover {
 }
 
 .butao-criar-conta > a{
+    font-family: 'Poppins', Verdana, sans-serif;
+    font-weight: 400;
     background-color: #742cb8;
     border-radius: 20px;
     text-decoration: none;
     color: #ffffff;
     font-size: 13px;
     font-weight: 500;
-    padding: 10px;
+    padding: 10px 15px;
     transition-duration: 0.5s;
 }
 
@@ -249,7 +254,7 @@ nav > a:hover {
 
 .parte3 {
     padding: 0px 10px;
-    max-width: 400px;
+    max-width: 300px;
 }
 
 .parte3 > h1 {
@@ -313,7 +318,7 @@ nav > a:hover {
 
 .parte4 {
     padding: 0px 10px;
-    max-width: 400px;
+    max-width: 300px;
 }
 
 .parte4 > h1 {
@@ -408,15 +413,21 @@ li > a:hover {
     color: #ffffff;
 }
 
-.rede-social {
+.redes-sociais {
     background-color: #000000;
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
     text-align: center;
+    height: 30px;
 }
 
-.img-redes-socias img{
+.img-redes-sociais img {
     width: 20px;
     padding: 0px 5px;
+    transition-duration: 0.6s;
+}
+
+.img-redes-sociais img:hover {
+    width: 25px;
 }
 
 .endereço {
@@ -430,9 +441,10 @@ li > a:hover {
 
 .endereço > p {
     color: #ffffffd2;
-    max-width: 400px;
+    max-width: 300px;
     font-family: 'Poppins', Verdana, sans-serif;
     font-size: 13px;
+    padding-bottom: 20px;
 }
 
 
